@@ -1,0 +1,2 @@
+# Load Sysbuild board Kconfig descriptions.
+osource "/home/mason/01_project/zephyrproject/HelloLED/blinky/boards/xtensa/esp32_s3_board/Kconfig.sysbuild"

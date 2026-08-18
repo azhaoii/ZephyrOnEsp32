@@ -1,0 +1,46 @@
+/dts-v1/;
+
+#include <espressif/esp32s3/esp32s3_wroom_n8r8.dtsi>
+#include <espressif/partitions_0x0_amp.dtsi>
+
+/* root device tree*/
+// hardware object nood
+// container nood
+// leds/led_0 -> led0
+
+/ {
+    leds {
+        compatible = "gpio-leds";
+        led0: led_0 {
+            gpios = <&gpio1 11 GPIO_ACTIVE_LOW>;
+        };
+    };
+
+    aliases {
+        led0 = &led0;
+    };
+
+    chosen {
+        zephyr,sram = &sram1;
+        zephyr,flash = &flash0;  
+        zephyr,console = &uart0;      
+    };
+
+};
+
+&gpio1 {
+    status = "okay";
+};
+
+/* esp32 clock is done defult
+&clock {
+    clocks = <&fast-clk-src>;
+    status = "okay";
+};
+*/
+
+/* power is done defult
+&pwr {
+
+};
+*/
