@@ -5,7 +5,7 @@ first project is blinky which is created by manual every file
 this project use esp32s3 N16R8 custom board from taobao
 
 1. Schematic :
-![alt text](./assets/image.png)
+![alt text](./assets/Schematic.png)
 
-2. External View:
-![alt text](./assets/image-1.png)
+2. Hardware Appearance View:
+![alt text](./assets/HardwareAppearance.png)

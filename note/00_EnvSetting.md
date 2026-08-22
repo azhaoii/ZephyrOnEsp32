@@ -106,6 +106,6 @@
 
 应该有输出
 
-![image-20260821205741354](..\assets\image-20260821205741354.png)
+![image-20260821205741354](..\assets\BuildResult.png)
 
 11. 可以使用west flash刷写
