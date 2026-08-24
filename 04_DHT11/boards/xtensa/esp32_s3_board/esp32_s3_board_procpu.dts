@@ -1,0 +1,71 @@
+/dts-v1/;
+
+#include <espressif/esp32s3/esp32s3_wroom_n8r8.dtsi>
+#include <espressif/partitions_0x0_amp.dtsi>
+#include "esp32_s3_board-pinctrl.dtsi"
+
+/* root device tree*/
+// hardware object nood
+// container nood
+// leds/led_0 -> led0
+
+/ {
+    leds {
+        compatible = "gpio-leds";
+        led0: led_0 {
+            gpios = <&gpio1 11 GPIO_ACTIVE_LOW>;
+        };
+    };
+
+    dht11: dht11 {
+        compatible = "aosong,dht";
+        dio-gpios = <&gpio0 1 GPIO_ACTIVE_LOW>;
+        status = "okay";
+    };
+
+    aliases {
+        led0 = &led0;
+        uart-0 = &uart0;
+        dht0 = &dht11;
+    };
+
+    chosen {
+        zephyr,sram = &sram1;
+        zephyr,flash = &flash0;  
+        zephyr,console = &uart0;
+		zephyr,shell-uart = &uart0;        
+    };
+
+};
+
+&gpio0 {
+    status = "okay";
+};
+
+&gpio1 {
+    status = "okay";
+};
+
+&usb_serial {
+	status = "disabled";
+};
+
+&uart0 {
+	status = "okay";
+	current-speed = <115200>;
+	pinctrl-0 = <&uart0_default>;
+	pinctrl-names = "default";
+};
+
+/* esp32 clock is done defult
+&clock {
+    clocks = <&fast-clk-src>;
+    status = "okay";
+};
+*/
+
+/* power is done defult
+&pwr {
+
+};
+*/
