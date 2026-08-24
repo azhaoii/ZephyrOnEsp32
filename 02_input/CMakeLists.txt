@@ -3,6 +3,6 @@
 cmake_minimum_required(VERSION 3.28.0)
 set(BOARD_ROOT ${CMAKE_CURRENT_SOURCE_DIR})
 find_package(Zephyr REQUIRED HINTS $ENV{ZEPHYR_BASE})
-project(blinky)
+project(02_input)
 
 target_sources(app PRIVATE src/main.c)
