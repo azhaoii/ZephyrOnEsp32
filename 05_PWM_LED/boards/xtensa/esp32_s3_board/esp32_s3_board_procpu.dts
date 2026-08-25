@@ -1,0 +1,45 @@
+/dts-v1/;
+
+#include <espressif/esp32s3/esp32s3_wroom_n16r8.dtsi>
+#include <espressif/partitions_0x0_amp.dtsi>
+#include <zephyr/dt-bindings/pwm/pwm.h>
+#include "esp32_s3_board-pinctrl.dtsi"
+
+/* root device tree*/
+// hardware object nood
+// container nood
+// leds/led_0 -> led0
+
+/ {
+    pwmleds {
+        compatible = "pwm-leds";
+
+        pwm_led0: led_0 {
+			label = "extend_pwm_led0";
+			/* <&ledc0 通道0 周期200000ns=5kHz 极性取反(对应LED低电平有效)> */
+			pwms = <&ledc0 0 200000 PWM_POLARITY_INVERTED>;
+		};
+    };
+
+    aliases {
+        pwm-led0 = &pwm_led0;
+    };
+
+    chosen {
+        zephyr,sram = &sram1;
+        zephyr,flash = &flash0;
+        zephyr,console = &uart0;
+    };
+};
+
+&ledc0 {
+	status = "okay";
+	pinctrl-0 = <&ledc0_default>;
+	pinctrl-names = "default";
+	#address-cells = <1>;
+	#size-cells = <0>;
+	channel0@0 {
+		reg = <0x0>;
+		timer = <0>;
+	};
+};

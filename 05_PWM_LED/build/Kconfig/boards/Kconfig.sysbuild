@@ -1,0 +1,2 @@
+# Load Sysbuild board Kconfig descriptions.
+osource "/home/mason/01_project/ZephyrOnEsp32/05_PWM_LED/boards/xtensa/esp32_s3_board/Kconfig.sysbuild"

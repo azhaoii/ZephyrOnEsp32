@@ -1,0 +1,5 @@
+config BOARD_ESP32_S3_BOARD
+    bool "ESPRESSIF ESP32-S3 BOARD"
+    select SOC_ESP32S3
+    help
+        My Board is simple esp32, very cheap

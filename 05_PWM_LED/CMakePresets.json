@@ -1,0 +1,47 @@
+{
+  "version": 3,
+  "configurePresets": [
+    {
+      "name": "base",
+      "hidden": true,
+      "generator": "Ninja",
+      "cacheVariables": {
+        "BOARD": "esp32_s3_board/esp32s3/procpu",
+        "Python3_EXECUTABLE": "/home/mason/01_project/zephyrproject/.venv/bin/python3",
+        "CMAKE_EXPORT_COMPILE_COMMANDS": "ON",
+        "NO_BUILD_TYPE_WARNING": "ON",
+        "CMAKE_C_COMPILER": "/home/mason/01_project/zephyr-sdk-1.0.1/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc",
+        "CMAKE_CXX_COMPILER": "/home/mason/01_project/zephyr-sdk-1.0.1/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-g++"
+      },
+      "environment": {
+        "ZEPHYR_BASE": "/home/mason/01_project/zephyrproject/zephyr"
+      }
+    },
+    {
+      "name": "zephyr-debug",
+      "inherits": "base",
+      "binaryDir": "${sourceDir}/cmake-build-debug-zephyr",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug"
+      }
+    },
+    {
+      "name": "zephyr-release",
+      "inherits": "base",
+      "binaryDir": "${sourceDir}/cmake-build-release-zephyr",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "zephyr-debug-build",
+      "configurePreset": "zephyr-debug"
+    },
+    {
+      "name": "zephyr-release-build",
+      "configurePreset": "zephyr-release"
+    }
+  ]
+}
