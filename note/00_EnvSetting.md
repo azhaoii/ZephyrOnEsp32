@@ -109,3 +109,6 @@
 ![image-20260821205741354](..\assets\BuildResult.png)
 
 11. 可以使用west flash刷写
+
+12. 常规编译命令
+> west build -p always -b esp32_s3_board/esp32s3/procpu
