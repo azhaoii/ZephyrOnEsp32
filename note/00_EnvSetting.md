@@ -73,16 +73,9 @@
 > west packages pip --install
 > ```
 
-8. 配置环境变量（为了编译能找到zephyr源码和SDK）
+8. 配置 Cmake（为了编译能找到zephyr源码和SDK）
 > ```
->cat >> ~/.bashrc << 'EOF'
->
->export ZEPHYR_BASE=~/01_project/zephyrproject/zephyr
->export ZEPHYR_SDK_INSTALL_DIR=~/01_project/zephyr-sdk-1.0.1
->export PATH=$PATH:$ZEPHYR_SDK_INSTALL_DIR/gnu/arm-zephyr-eabi/bin:$ZEPHYR_SDK_INSTALL_DIR/hosttools
->EOF
->
->source ~/.bashrc
+> west zephyr-export
 > ```
 
 9. 安装 sdk 并验证环境
@@ -91,12 +84,6 @@
 > cd ~/zephyrproject/zephyr
 > west sdk install -t xxx
 > # xxx 为工具链名字，见 附录1 工具链
-> 
-> echo $ZEPHYR_BASE
-> # 输出类似 /home/01_project/zephyrproject/zephyr
->
-> which arm-zephyr-eabi-gcc
-> # 应当输出 SDK 路径下的 gcc
 > ```
 
 10. 编译验证
