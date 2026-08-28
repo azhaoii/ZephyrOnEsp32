@@ -85,16 +85,18 @@
 >source ~/.bashrc
 > ```
 
-9. 验证环境
+9. 安装 sdk 并验证环境
 
 > ```
+> cd ~/zephyrproject/zephyr
+> west sdk install -t xxx
+> # xxx 为工具链名字，见 附录1 工具链
+> 
 > echo $ZEPHYR_BASE
->
-> // 输出类似 /home/01_project/zephyrproject/zephyr
+> # 输出类似 /home/01_project/zephyrproject/zephyr
 >
 > which arm-zephyr-eabi-gcc
->
-> // 应当输出 SDK 路径下的 gcc
+> # 应当输出 SDK 路径下的 gcc
 > ```
 
 10. 编译验证
@@ -112,3 +114,40 @@
 
 12. 常规编译命令
 > west build -p always -b esp32_s3_board/esp32s3/procpu
+
+### 附录1 工具链
+- x86_64-zephyr-elf
+- arm-zephyr-eabi
+- aarch64-zephyr-elf
+- arc64-zephyr-elf
+- arc-zephyr-elf
+- microblazeel-zephyr-elf
+- mips-zephyr-elf
+- or1k-zephyr-elf
+- riscv64-zephyr-elf
+- rx-zephyr-elf
+- sparc-zephyr-elf
+- xtensa-amd_acp_6_0_adsp_zephyr-elf
+- xtensa-amd_acp_7_0_adsp_zephyr-elf
+- xtensa-amd_acp_7_3_adsp_zephyr-elf
+- xtensa-dc233c_zephyr-elf
+- xtensa-espressif_esp32_zephyr-elf
+- xtensa-espressif_esp32s2_zephyr-elf
+- xtensa-espressif_esp32s3_zephyr-elf
+- xtensa-intel_ace15_mtpm_zephyr-elf
+- xtensa-intel_ace30_ptl_zephyr-elf
+- xtensa-intel_ace40_zephyr-elf
+- xtensa-intel_tgl_adsp_zephyr-elf
+- xtensa-mtk_mt8195_adsp_zephyr-elf
+- xtensa-mtk_mt818x_adsp_zephyr-elf
+- xtensa-mtk_mt8196_adsp_zephyr-elf
+- xtensa-mtk_mt8365_adsp_zephyr-elf
+- xtensa-nxp_imx_adsp_zephyr-elf
+- xtensa-nxp_imx8m_adsp_zephyr-elf
+- xtensa-nxp_imx8ulp_adsp_zephyr-elf
+- xtensa-nxp_rt500_adsp_zephyr-elf
+- xtensa-nxp_rt600_adsp_zephyr-elf
+- xtensa-nxp_rt700_hifi1_zephyr-elf
+- xtensa-nxp_rt700_hifi4_zephyr-elf
+- xtensa-sample_controller_zephyr-elf
+- xtensa-sample_controller32_zephyr-elf
