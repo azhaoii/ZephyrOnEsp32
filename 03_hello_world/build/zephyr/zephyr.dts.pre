@@ -1,10 +1,15 @@
 # 0 "/home/mason/01_project/zephyrproject/zephyr/misc/empty_file.c"
 # 0 "<built-in>"
 # 0 "<command-line>"
-# 1 "/home/mason/01_project/ZephyrOnEsp32/hello_world/boards/xtensa/esp32_s3_board/esp32_s3_board_procpu.dts" 1
+# 1 "/home/mason/01_project/zephyrproject/zephyr/boards/espressif/esp32s3_devkitc/esp32s3_devkitc_procpu.dts" 1
+
+
+
+
+
 /dts-v1/;
 
-# 1 "/home/mason/01_project/zephyrproject/zephyr/dts/xtensa/espressif/esp32s3/esp32s3_wroom_n8r8.dtsi" 1 3 4
+# 1 "/home/mason/01_project/zephyrproject/zephyr/dts/xtensa/espressif/esp32s3/esp32s3_wroom_n8.dtsi" 1 3 4
 
 
 
@@ -730,19 +735,18 @@
   };
  };
 };
-# 8 "/home/mason/01_project/zephyrproject/zephyr/dts/xtensa/espressif/esp32s3/esp32s3_wroom_n8r8.dtsi" 2 3 4
+# 8 "/home/mason/01_project/zephyrproject/zephyr/dts/xtensa/espressif/esp32s3/esp32s3_wroom_n8.dtsi" 2 3 4
 
 
 &flash0 {
  reg = <0x0 (((8) * 1024) * 1024)>;
  ranges = <0x0 0x0 (((8) * 1024) * 1024)>;
 };
-
-
-&psram0 {
- size = <(((8) * 1024) * 1024)>;
-};
-# 4 "/home/mason/01_project/ZephyrOnEsp32/hello_world/boards/xtensa/esp32_s3_board/esp32_s3_board_procpu.dts" 2
+# 9 "/home/mason/01_project/zephyrproject/zephyr/boards/espressif/esp32s3_devkitc/esp32s3_devkitc_procpu.dts" 2
+# 1 "/home/mason/01_project/zephyrproject/zephyr/include/zephyr/dt-bindings/input/input-event-codes.h" 1 3 4
+# 10 "/home/mason/01_project/zephyrproject/zephyr/boards/espressif/esp32s3_devkitc/esp32s3_devkitc_procpu.dts" 2
+# 1 "/home/mason/01_project/zephyrproject/zephyr/include/zephyr/dt-bindings/input/esp32-touch-sensor-input.h" 1 3 4
+# 11 "/home/mason/01_project/zephyrproject/zephyr/boards/espressif/esp32s3_devkitc/esp32s3_devkitc_procpu.dts" 2
 # 1 "/home/mason/01_project/zephyrproject/zephyr/dts/vendor/espressif/partitions_0x0_amp.dtsi" 1 3 4
 
 
@@ -831,53 +835,139 @@
  };
 };
 # 8 "/home/mason/01_project/zephyrproject/zephyr/dts/vendor/espressif/partitions_0x0_amp.dtsi" 2 3 4
-# 5 "/home/mason/01_project/ZephyrOnEsp32/hello_world/boards/xtensa/esp32_s3_board/esp32_s3_board_procpu.dts" 2
-# 1 "/home/mason/01_project/ZephyrOnEsp32/hello_world/boards/xtensa/esp32_s3_board/esp32_s3_board-pinctrl.dtsi" 1
-
-
+# 12 "/home/mason/01_project/zephyrproject/zephyr/boards/espressif/esp32s3_devkitc/esp32s3_devkitc_procpu.dts" 2
+# 1 "/home/mason/01_project/zephyrproject/zephyr/boards/espressif/esp32s3_devkitc/esp32s3_devkitc-pinctrl.dtsi" 1
+# 9 "/home/mason/01_project/zephyrproject/zephyr/boards/espressif/esp32s3_devkitc/esp32s3_devkitc-pinctrl.dtsi"
 &pinctrl {
-    uart0_default: uart0_default {
-        group1 {
-            pinmux = <(((43 & 0x3FU) << 0U) | ((0x1FFU & 0x1FFU) << 6U) | ((12 & 0x1FFU) << 15U))>;
-            output-high;
-        };
-        group2 {
-            pinmux = <(((44 & 0x3FU) << 0U) | ((12 & 0x1FFU) << 6U) | ((0x1FFU & 0x1FFU) << 15U))>;
-            bias-pull-up;
-        };
-    };
+ uart0_default: uart0_default {
+  group1 {
+   pinmux = <(((43 & 0x3FU) << 0U) | ((0x1FFU & 0x1FFU) << 6U) | ((12 & 0x1FFU) << 15U))>;
+   output-high;
+  };
+
+  group2 {
+   pinmux = <(((44 & 0x3FU) << 0U) | ((12 & 0x1FFU) << 6U) | ((0x1FFU & 0x1FFU) << 15U))>;
+   bias-pull-up;
+  };
+ };
+
+ uart1_default: uart1_default {
+  group1 {
+   pinmux = <(((17 & 0x3FU) << 0U) | ((0x1FFU & 0x1FFU) << 6U) | ((15 & 0x1FFU) << 15U))>;
+   output-high;
+  };
+
+  group2 {
+   pinmux = <(((18 & 0x3FU) << 0U) | ((15 & 0x1FFU) << 6U) | ((0x1FFU & 0x1FFU) << 15U))>;
+   bias-pull-up;
+  };
+ };
+
+ i2c0_default: i2c0_default {
+  group1 {
+   pinmux = <(((1 & 0x3FU) << 0U) | ((90 & 0x1FFU) << 6U) | ((90 & 0x1FFU) << 15U))>,
+     <(((2 & 0x3FU) << 0U) | ((89 & 0x1FFU) << 6U) | ((89 & 0x1FFU) << 15U))>;
+   bias-pull-up;
+   drive-open-drain;
+   output-high;
+  };
+ };
+
+ i2c1_default: i2c1_default {
+  group1 {
+   pinmux = <(((4 & 0x3FU) << 0U) | ((92 & 0x1FFU) << 6U) | ((92 & 0x1FFU) << 15U))>,
+     <(((5 & 0x3FU) << 0U) | ((91 & 0x1FFU) << 6U) | ((91 & 0x1FFU) << 15U))>;
+   bias-pull-up;
+   drive-open-drain;
+   output-high;
+  };
+ };
+
+ i2s0_default: i2s0_default {
+  group1 {
+   pinmux = <(((42 & 0x3FU) << 0U) | ((0x1FFU & 0x1FFU) << 6U) | ((23 & 0x1FFU) << 15U))>,
+     <(((36 & 0x3FU) << 0U) | ((24 & 0x1FFU) << 6U) | ((24 & 0x1FFU) << 15U))>,
+     <(((37 & 0x3FU) << 0U) | ((22 & 0x1FFU) << 6U) | ((22 & 0x1FFU) << 15U))>,
+     <(((38 & 0x3FU) << 0U) | ((0x1FFU & 0x1FFU) << 6U) | ((25 & 0x1FFU) << 15U))>,
+     <(((41 & 0x3FU) << 0U) | ((25 & 0x1FFU) << 6U) | ((0x1FFU & 0x1FFU) << 15U))>;
+  };
+ };
+
+ i2s1_default: i2s1_default {
+  group1 {
+   pinmux = <(((48 & 0x3FU) << 0U) | ((0x1FFU & 0x1FFU) << 6U) | ((21 & 0x1FFU) << 15U))>,
+     <(((4 & 0x3FU) << 0U) | ((29 & 0x1FFU) << 6U) | ((29 & 0x1FFU) << 15U))>,
+     <(((5 & 0x3FU) << 0U) | ((28 & 0x1FFU) << 6U) | ((28 & 0x1FFU) << 15U))>,
+     <(((6 & 0x3FU) << 0U) | ((0x1FFU & 0x1FFU) << 6U) | ((30 & 0x1FFU) << 15U))>,
+     <(((12 & 0x3FU) << 0U) | ((30 & 0x1FFU) << 6U) | ((0x1FFU & 0x1FFU) << 15U))>;
+  };
+ };
+
+ spim2_default: spim2_default {
+  group1 {
+   pinmux = <(((13 & 0x3FU) << 0U) | ((102 & 0x1FFU) << 6U) | ((0x1FFU & 0x1FFU) << 15U))>,
+     <(((12 & 0x3FU) << 0U) | ((0x1FFU & 0x1FFU) << 6U) | ((101 & 0x1FFU) << 15U))>,
+     <(((10 & 0x3FU) << 0U) | ((0x1FFU & 0x1FFU) << 6U) | ((110 & 0x1FFU) << 15U))>;
+  };
+
+  group2 {
+   pinmux = <(((11 & 0x3FU) << 0U) | ((0x1FFU & 0x1FFU) << 6U) | ((103 & 0x1FFU) << 15U))>;
+   output-low;
+  };
+ };
+
+
+ spim3_default: spim3_default {
+  group1 {
+   pinmux = <(((40 & 0x3FU) << 0U) | ((67 & 0x1FFU) << 6U) | ((0x1FFU & 0x1FFU) << 15U))>,
+     <(((21 & 0x3FU) << 0U) | ((0x1FFU & 0x1FFU) << 6U) | ((66 & 0x1FFU) << 15U))>,
+     <(((14 & 0x3FU) << 0U) | ((0x1FFU & 0x1FFU) << 6U) | ((71 & 0x1FFU) << 15U))>;
+  };
+
+  group2 {
+   pinmux = <(((41 & 0x3FU) << 0U) | ((0x1FFU & 0x1FFU) << 6U) | ((68 & 0x1FFU) << 15U))>;
+   output-low;
+  };
+ };
+
+ twai_default: twai_default {
+  group1 {
+   pinmux = <(((5 & 0x3FU) << 0U) | ((0x1FFU & 0x1FFU) << 6U) | ((116 & 0x1FFU) << 15U))>,
+     <(((6 & 0x3FU) << 0U) | ((116 & 0x1FFU) << 6U) | ((0x1FFU & 0x1FFU) << 15U))>;
+  };
+ };
 };
-# 6 "/home/mason/01_project/ZephyrOnEsp32/hello_world/boards/xtensa/esp32_s3_board/esp32_s3_board_procpu.dts" 2
-
-
-
-
-
+# 13 "/home/mason/01_project/zephyrproject/zephyr/boards/espressif/esp32s3_devkitc/esp32s3_devkitc_procpu.dts" 2
 
 / {
-    leds {
-        compatible = "gpio-leds";
-        led0: led_0 {
-            gpios = <&gpio1 11 (1 << 0)>;
-        };
-    };
+ model = "Espressif ESP32S3-DevkitC PROCPU";
+ compatible = "espressif,esp32s3";
 
-    aliases {
-        led0 = &led0;
-        uart-0 = &uart0;
-    };
+ aliases {
+  i2c-0 = &i2c0;
+  watchdog0 = &wdt0;
+  uart-0 = &uart0;
+  sw0 = &button0;
+ };
 
-    chosen {
-        zephyr,sram = &sram1;
-        zephyr,flash = &flash0;
-        zephyr,console = &uart0;
+ chosen {
+  zephyr,sram = &sram1;
+  zephyr,console = &uart0;
   zephyr,shell-uart = &uart0;
-    };
+  zephyr,flash = &flash0;
+  zephyr,code-partition = &slot0_partition;
+  zephyr,bt-hci = &esp32_bt_hci;
+ };
 
-};
+ buttons {
+  compatible = "gpio-keys";
 
-&gpio1 {
-    status = "okay";
+  button0: button_0 {
+   gpios = <&gpio0 0 ((1 << 4) | (1 << 0))>;
+   label = "BOOT Button";
+   zephyr,code = <11>;
+  };
+ };
 };
 
 &usb_serial {
@@ -889,6 +979,109 @@
  current-speed = <115200>;
  pinctrl-0 = <&uart0_default>;
  pinctrl-names = "default";
+};
+
+&gpio0 {
+ status = "okay";
+};
+
+&gpio1 {
+ status = "okay";
+};
+
+&touch {
+ debounce-interval-ms = <30>;
+ href-microvolt = <2700000>;
+ lref-microvolt = <500000>;
+ href-atten-microvolt = <1000000>;
+ filter-mode = <2>;
+ filter-debounce-cnt = <1>;
+ filter-noise-thr = <0>;
+ filter-jitter-step = <4>;
+ filter-smooth-level = <1>;
+};
+
+&i2c0 {
+ clock-frequency = <100000>;
+ pinctrl-0 = <&i2c0_default>;
+ pinctrl-names = "default";
+};
+
+&i2c1 {
+ clock-frequency = <100000>;
+ pinctrl-0 = <&i2c1_default>;
+ pinctrl-names = "default";
+};
+
+&i2s0 {
+ pinctrl-0 = <&i2s0_default>;
+ pinctrl-names = "default";
+};
+
+&i2s1 {
+ pinctrl-0 = <&i2s1_default>;
+ pinctrl-names = "default";
+};
+
+&spi2 {
+ #address-cells = <1>;
+ #size-cells = <0>;
+ status = "okay";
+ pinctrl-0 = <&spim2_default>;
+ pinctrl-names = "default";
+};
+
+&spi3 {
+ #address-cells = <1>;
+ #size-cells = <0>;
+ status = "okay";
+ pinctrl-0 = <&spim3_default>;
+ pinctrl-names = "default";
+};
+
+&twai {
+ pinctrl-0 = <&twai_default>;
+ pinctrl-names = "default";
+};
+
+&timer0 {
+ status = "disabled";
+};
+
+&timer1 {
+ status = "disabled";
+};
+
+&timer2 {
+ status = "disabled";
+};
+
+&timer3 {
+ status = "disabled";
+};
+
+&wdt0 {
+ status = "okay";
+};
+
+&trng0 {
+ status = "okay";
+};
+
+&esp32_bt_hci {
+ status = "okay";
+};
+
+&wifi {
+ status = "okay";
+};
+
+zephyr_udc0: &usb_otg {
+ status = "okay";
+};
+
+zephyr_uhc0: &usb_otg {
+ status = "okay";
 };
 # 0 "<command-line>" 2
 # 1 "/home/mason/01_project/zephyrproject/zephyr/misc/empty_file.c"

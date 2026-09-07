@@ -1,0 +1,30 @@
+empty_file.o: \
+ /home/mason/01_project/zephyrproject/zephyr/misc/empty_file.c \
+ /home/mason/01_project/ZephyrOnEsp32/06_TFT_Screen/boards/xtensa/esp32_s3_board/esp32_s3_board_procpu.dts \
+ /home/mason/01_project/zephyrproject/zephyr/dts/xtensa/espressif/esp32s3/esp32s3_wroom_n8r8.dtsi \
+ /home/mason/01_project/zephyrproject/zephyr/dts/xtensa/espressif/esp32s3/esp32s3_common.dtsi \
+ /home/mason/01_project/zephyrproject/zephyr/dts/common/mem.h \
+ /home/mason/01_project/zephyrproject/zephyr/dts/common/freq.h \
+ /home/mason/01_project/zephyrproject/zephyr/dts/xtensa/xtensa.dtsi \
+ /home/mason/01_project/zephyrproject/zephyr/dts/common/skeleton.dtsi \
+ /home/mason/01_project/zephyrproject/zephyr/include/zephyr/dt-bindings/adc/adc.h \
+ /home/mason/01_project/zephyrproject/zephyr/include/zephyr/dt-bindings/dt-util.h \
+ /home/mason/01_project/zephyrproject/zephyr/include/zephyr/sys/util_macro.h \
+ /home/mason/01_project/zephyrproject/zephyr/include/zephyr/sys/util_internal.h \
+ /home/mason/01_project/zephyrproject/zephyr/include/zephyr/sys/util_loops.h \
+ /home/mason/01_project/zephyrproject/zephyr/include/zephyr/sys/util_listify.h \
+ /home/mason/01_project/zephyrproject/zephyr/include/zephyr/sys/util_internal_is_eq.h \
+ /home/mason/01_project/zephyrproject/zephyr/include/zephyr/sys/util_internal_util_inc.h \
+ /home/mason/01_project/zephyrproject/zephyr/include/zephyr/sys/util_internal_util_dec.h \
+ /home/mason/01_project/zephyrproject/zephyr/include/zephyr/sys/util_internal_util_x2.h \
+ /home/mason/01_project/zephyrproject/zephyr/include/zephyr/dt-bindings/gpio/gpio.h \
+ /home/mason/01_project/zephyrproject/zephyr/include/zephyr/dt-bindings/i2c/i2c.h \
+ /home/mason/01_project/zephyrproject/zephyr/include/zephyr/dt-bindings/clock/esp32s3_clock.h \
+ /home/mason/01_project/zephyrproject/zephyr/include/zephyr/dt-bindings/interrupt-controller/esp32s3-xtensa-intmux.h \
+ /home/mason/01_project/zephyrproject/zephyr/include/zephyr/dt-bindings/pinctrl/esp32s3-pinctrl.h \
+ /home/mason/01_project/zephyrproject/zephyr/include/zephyr/dt-bindings/pinctrl/esp-pinctrl-common.h \
+ /home/mason/01_project/zephyrproject/zephyr/include/zephyr/dt-bindings/pinctrl/esp32s3-gpio-sigmap.h \
+ /home/mason/01_project/zephyrproject/zephyr/dts/vendor/espressif/partitions_0x0_amp.dtsi \
+ /home/mason/01_project/zephyrproject/zephyr/dts/vendor/espressif/partitions_0x0_amp_4M.dtsi \
+ /home/mason/01_project/ZephyrOnEsp32/06_TFT_Screen/boards/xtensa/esp32_s3_board/esp32_s3_board-pinctrl.dtsi \
+ /home/mason/01_project/zephyrproject/zephyr/include/zephyr/dt-bindings/mipi_dbi/mipi_dbi.h

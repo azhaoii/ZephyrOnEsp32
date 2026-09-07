@@ -1,8 +1,8 @@
 linker_zephyr_pre0.cmd: \
  /home/mason/01_project/zephyrproject/zephyr/soc/espressif/common/../esp32s3/default.ld \
- /home/mason/01_project/ZephyrOnEsp32/hello_world/build/zephyr/include/generated/zephyr/autoconf.h \
+ /home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/zephyr/include/generated/zephyr/autoconf.h \
  /home/mason/01_project/zephyrproject/zephyr/include/zephyr/devicetree.h \
- /home/mason/01_project/ZephyrOnEsp32/hello_world/build/zephyr/include/generated/zephyr/devicetree_generated.h \
+ /home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/zephyr/include/generated/zephyr/devicetree_generated.h \
  /home/mason/01_project/zephyrproject/zephyr/include/zephyr/irq_multilevel.h \
  /home/mason/01_project/zephyrproject/zephyr/include/zephyr/sys/util.h \
  /home/mason/01_project/zephyrproject/zephyr/include/zephyr/sys/util_macro.h \
@@ -41,7 +41,7 @@ linker_zephyr_pre0.cmd: \
  /home/mason/01_project/zephyrproject/zephyr/include/zephyr/linker/section_tags.h \
  /home/mason/01_project/zephyrproject/zephyr/include/zephyr/linker/linker-defs.h \
  /home/mason/01_project/zephyrproject/zephyr/include/zephyr/toolchain/common.h \
- /home/mason/01_project/ZephyrOnEsp32/hello_world/build/zephyr/include/generated/zephyr/offsets.h \
+ /home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/zephyr/include/generated/zephyr/offsets.h \
  /home/mason/01_project/zephyrproject/zephyr/include/zephyr/linker/linker-tool.h \
  /home/mason/01_project/zephyrproject/zephyr/include/zephyr/linker/linker-tool-gcc.h \
  /home/mason/01_project/zephyrproject/zephyr/include/zephyr/kernel/mm.h \
@@ -49,28 +49,28 @@ linker_zephyr_pre0.cmd: \
  /home/mason/01_project/zephyrproject/zephyr/soc/espressif/common/../esp32s3/memory.h \
  /home/mason/01_project/zephyrproject/zephyr/include/zephyr/linker/rel-sections.ld \
  /home/mason/01_project/zephyrproject/zephyr/include/zephyr/linker/llext-sections.ld \
- /home/mason/01_project/ZephyrOnEsp32/hello_world/build/zephyr/include/generated/snippets-rwdata.ld \
+ /home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/zephyr/include/generated/snippets-rwdata.ld \
  /home/mason/01_project/zephyrproject/zephyr/include/zephyr/linker/common-ram.ld \
  /home/mason/01_project/zephyrproject/zephyr/include/zephyr/linker/iterable_sections.h \
- /home/mason/01_project/ZephyrOnEsp32/hello_world/build/zephyr/include/generated/snippets-data-sections.ld \
- /home/mason/01_project/ZephyrOnEsp32/hello_world/build/zephyr/include/generated/snippets-ram-sections.ld \
+ /home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/zephyr/include/generated/snippets-data-sections.ld \
+ /home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/zephyr/include/generated/snippets-ram-sections.ld \
  /home/mason/01_project/zephyrproject/zephyr/include/zephyr/linker/cplusplus-ram.ld \
  /home/mason/01_project/zephyrproject/zephyr/include/zephyr/linker/kobject-data.ld \
  /home/mason/01_project/zephyrproject/zephyr/include/zephyr/linker/common-rom/common-rom-logging.ld \
- /home/mason/01_project/ZephyrOnEsp32/hello_world/build/zephyr/include/generated/esp_spiram_relocate_bss.ld.inc \
+ /home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/zephyr/include/generated/esp_spiram_relocate_bss.ld.inc \
  /home/mason/01_project/zephyrproject/zephyr/include/zephyr/linker/ram-end.ld \
- /home/mason/01_project/ZephyrOnEsp32/hello_world/build/zephyr/include/generated/snippets-rodata.ld \
+ /home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/zephyr/include/generated/snippets-rodata.ld \
  /home/mason/01_project/zephyrproject/zephyr/include/zephyr/linker/cplusplus-rom.ld \
  /home/mason/01_project/zephyrproject/zephyr/include/zephyr/linker/common-rom/common-rom-init.ld \
  /home/mason/01_project/zephyrproject/zephyr/include/zephyr/linker/common-rom/common-rom-kernel-devices.ld \
  /home/mason/01_project/zephyrproject/zephyr/include/zephyr/linker/device-deps.ld \
- /home/mason/01_project/ZephyrOnEsp32/hello_world/build/zephyr/include/generated/device-api-sections.ld \
+ /home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/zephyr/include/generated/device-api-sections.ld \
  /home/mason/01_project/zephyrproject/zephyr/include/zephyr/linker/common-rom/common-rom-ztest.ld \
  /home/mason/01_project/zephyrproject/zephyr/include/zephyr/linker/common-rom/common-rom-net.ld \
  /home/mason/01_project/zephyrproject/zephyr/include/zephyr/linker/common-rom/common-rom-bt.ld \
  /home/mason/01_project/zephyrproject/zephyr/include/zephyr/linker/common-rom/common-rom-debug.ld \
  /home/mason/01_project/zephyrproject/zephyr/include/zephyr/linker/common-rom/common-rom-misc.ld \
  /home/mason/01_project/zephyrproject/zephyr/include/zephyr/linker/thread-local-storage.ld \
- /home/mason/01_project/ZephyrOnEsp32/hello_world/build/zephyr/include/generated/snippets-sections.ld \
+ /home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/zephyr/include/generated/snippets-sections.ld \
  /home/mason/01_project/zephyrproject/zephyr/include/zephyr/linker/intlist.ld \
  /home/mason/01_project/zephyrproject/zephyr/include/zephyr/linker/debug-sections.ld

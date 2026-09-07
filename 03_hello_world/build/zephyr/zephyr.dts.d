@@ -1,7 +1,7 @@
 empty_file.o: \
  /home/mason/01_project/zephyrproject/zephyr/misc/empty_file.c \
- /home/mason/01_project/ZephyrOnEsp32/hello_world/boards/xtensa/esp32_s3_board/esp32_s3_board_procpu.dts \
- /home/mason/01_project/zephyrproject/zephyr/dts/xtensa/espressif/esp32s3/esp32s3_wroom_n8r8.dtsi \
+ /home/mason/01_project/zephyrproject/zephyr/boards/espressif/esp32s3_devkitc/esp32s3_devkitc_procpu.dts \
+ /home/mason/01_project/zephyrproject/zephyr/dts/xtensa/espressif/esp32s3/esp32s3_wroom_n8.dtsi \
  /home/mason/01_project/zephyrproject/zephyr/dts/xtensa/espressif/esp32s3/esp32s3_common.dtsi \
  /home/mason/01_project/zephyrproject/zephyr/dts/common/mem.h \
  /home/mason/01_project/zephyrproject/zephyr/dts/common/freq.h \
@@ -24,6 +24,8 @@ empty_file.o: \
  /home/mason/01_project/zephyrproject/zephyr/include/zephyr/dt-bindings/pinctrl/esp32s3-pinctrl.h \
  /home/mason/01_project/zephyrproject/zephyr/include/zephyr/dt-bindings/pinctrl/esp-pinctrl-common.h \
  /home/mason/01_project/zephyrproject/zephyr/include/zephyr/dt-bindings/pinctrl/esp32s3-gpio-sigmap.h \
+ /home/mason/01_project/zephyrproject/zephyr/include/zephyr/dt-bindings/input/input-event-codes.h \
+ /home/mason/01_project/zephyrproject/zephyr/include/zephyr/dt-bindings/input/esp32-touch-sensor-input.h \
  /home/mason/01_project/zephyrproject/zephyr/dts/vendor/espressif/partitions_0x0_amp.dtsi \
  /home/mason/01_project/zephyrproject/zephyr/dts/vendor/espressif/partitions_0x0_amp_4M.dtsi \
- /home/mason/01_project/ZephyrOnEsp32/hello_world/boards/xtensa/esp32_s3_board/esp32_s3_board-pinctrl.dtsi
+ /home/mason/01_project/zephyrproject/zephyr/boards/espressif/esp32s3_devkitc/esp32s3_devkitc-pinctrl.dtsi

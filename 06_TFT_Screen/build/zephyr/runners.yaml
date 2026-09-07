@@ -1,0 +1,32 @@
+# Available runners configured by board.cmake.
+runners:
+- esp32
+
+# Default flash runner if --runner is not given.
+flash-runner: esp32
+
+# Default debug runner if --runner is not given.
+debug-runner: openocd
+
+# Common runner configuration values.
+config:
+  board_dir: /home/mason/01_project/ZephyrOnEsp32/06_TFT_Screen/boards/xtensa/esp32_s3_board
+  # Build outputs:
+  elf_file: zephyr.elf
+  bin_file: zephyr.bin
+  # Host tools:
+  gdb: /home/mason/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-gdb-py
+  openocd: /home/mason/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/openocd
+  openocd_search:
+    - /home/mason/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/share/openocd/scripts
+
+# Runner specific arguments
+args:
+  esp32:
+    - --esp-monitor-baud=115200
+    - --esp-idf-path=/home/mason/01_project/zephyrproject/modules/hal/espressif
+    - --esp-app-address=0x0
+    - --esp-flash-size=8MB
+    - --esp-flash-freq=80m
+    - --esp-flash-mode=dio
+    - --esp-idf-path=/home/mason/01_project/zephyrproject/modules/hal/espressif

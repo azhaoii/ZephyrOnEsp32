@@ -1,1 +1,1 @@
-osource "/home/mason/01_project/ZephyrOnEsp32/hello_world/boards/shields/*/Kconfig.shield"
+osource "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/boards/shields/*/Kconfig.shield"

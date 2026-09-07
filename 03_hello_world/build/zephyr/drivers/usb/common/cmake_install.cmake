@@ -39,12 +39,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/mason/01_project/ZephyrOnEsp32/hello_world/build/zephyr/drivers/usb/common/buf/cmake_install.cmake")
+  include("/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/zephyr/drivers/usb/common/buf/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/zephyr/drivers/usb/common/install_local_manifest.txt"
+  file(WRITE "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/zephyr/drivers/usb/common/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

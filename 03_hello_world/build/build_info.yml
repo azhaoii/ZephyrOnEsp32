@@ -1,18 +1,18 @@
 cmake:
   application:
-    configuration-dir: '/home/mason/01_project/ZephyrOnEsp32/hello_world'
-    source-dir: '/home/mason/01_project/ZephyrOnEsp32/hello_world'
+    configuration-dir: '/home/mason/01_project/ZephyrOnEsp32/03_hello_world'
+    source-dir: '/home/mason/01_project/ZephyrOnEsp32/03_hello_world'
   board:
-    name: 'esp32_s3_board'
+    name: 'esp32s3_devkitc'
     path:
-     - '/home/mason/01_project/ZephyrOnEsp32/hello_world/boards/xtensa/esp32_s3_board'
+     - '/home/mason/01_project/zephyrproject/zephyr/boards/espressif/esp32s3_devkitc'
     qualifiers: 'esp32s3/procpu'
     revision: ''
   devicetree:
     bindings-dirs:
      - '/home/mason/01_project/zephyrproject/zephyr/dts/bindings'
     files:
-     - '/home/mason/01_project/ZephyrOnEsp32/hello_world/boards/xtensa/esp32_s3_board/esp32_s3_board_procpu.dts'
+     - '/home/mason/01_project/zephyrproject/zephyr/boards/espressif/esp32s3_devkitc/esp32s3_devkitc_procpu.dts'
     include-dirs:
      - '/home/mason/01_project/zephyrproject/modules/hal/ambiq/dts'
      - '/home/mason/01_project/zephyrproject/modules/hal/atmel/include'
@@ -42,10 +42,10 @@ cmake:
      - '/home/mason/01_project/zephyrproject/zephyr/dts'
   kconfig:
     files:
-     - '/home/mason/01_project/ZephyrOnEsp32/hello_world/boards/xtensa/esp32_s3_board/esp32_s3_board_procpu_defconfig'
-     - '/home/mason/01_project/ZephyrOnEsp32/hello_world/prj.conf'
+     - '/home/mason/01_project/zephyrproject/zephyr/boards/espressif/esp32s3_devkitc/esp32s3_devkitc_procpu_defconfig'
+     - '/home/mason/01_project/ZephyrOnEsp32/03_hello_world/prj.conf'
     user-files:
-     - '/home/mason/01_project/ZephyrOnEsp32/hello_world/prj.conf'
+     - '/home/mason/01_project/ZephyrOnEsp32/03_hello_world/prj.conf'
   toolchain:
     name: 'zephyr'
     path: '/home/mason/zephyr-sdk-1.0.1'
@@ -54,6 +54,6 @@ cmake:
     zephyr-base: '/home/mason/01_project/zephyrproject/zephyr'
 version: '0.1.0'
 west:
-  command: '/home/mason/01_project/zephyrproject/.venv/bin/west build -p always -b esp32_s3_board/esp32s3/procpu'
+  command: '/home/mason/01_project/zephyrproject/.venv/bin/west build -p always -b esp32s3_devkitc/esp32s3/procpu'
   topdir: '/home/mason/01_project/zephyrproject'
   version: '1.5.0'

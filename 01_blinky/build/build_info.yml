@@ -1,0 +1,5 @@
+west:
+  command: /home/mason/01_project/zephyrproject/.venv/bin/west build -p always -b
+    esp32_s3_board
+  topdir: /home/mason/01_project/zephyrproject
+  version: 1.5.0

@@ -1,0 +1,439 @@
+
+---
+events:
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/home/mason/01_project/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:28 (find_package)"
+      - "/home/mason/01_project/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/mason/01_project/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:5 (find_package)"
+    name: "ZephyrBuildConfiguration"
+    configs:
+      -
+        filename: "ZephyrBuildConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "zephyrbuild-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: false
+      bypass_provider: false
+      names:
+        - "ZephyrBuild"
+      search_paths:
+        - "/home/mason/01_project/zephyrproject/zephyr/../*"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: false
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: false
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: false
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/mason/01_project/ZephyrOnEsp32/01_blinky/build/CMakeFiles/pkgRedirects/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mason/01_project/ZephyrOnEsp32/01_blinky/build/CMakeFiles/pkgRedirects/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mason/01_project/zephyrproject/.venv/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mason/01_project/zephyrproject/.venv/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mason/01_project/zephyrproject/tools/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mason/01_project/zephyrproject/tools/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mason/01_project/zephyrproject/build/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mason/01_project/zephyrproject/build/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mason/01_project/zephyrproject/bootloader/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mason/01_project/zephyrproject/bootloader/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mason/01_project/zephyrproject/doc/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mason/01_project/zephyrproject/doc/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mason/01_project/zephyrproject/modules/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mason/01_project/zephyrproject/modules/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mason/01_project/zephyrproject/zephyr/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mason/01_project/zephyrproject/zephyr/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mason/01_project/zephyrproject/zephyr/cmake/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mason/01_project/zephyrproject/zephyr/cmake/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mason/01_project/zephyrproject/.west/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mason/01_project/zephyrproject/.west/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "/home/mason/01_project/zephyrproject/.venv/bin"
+        - "/home/mason/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/mason/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/mason/.vscode-server/bin/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/bin/remote-cli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/01_Software/VMware/bin/"
+        - "/mnt/c/Program Files/Microsoft/jdk-21.0.7.6-hotspot/bin"
+        - "/mnt/c/WINDOWS/system32"
+        - "/mnt/c/WINDOWS"
+        - "/mnt/c/WINDOWS/System32/Wbem"
+        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/WINDOWS/System32/OpenSSH/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/d/01_Software/XShell/"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/d/03_Tools/ffmpeg-8.0-essentials_build/bin"
+        - "/mnt/c/Program Files/Calibre2/"
+        - "/mnt/d/03_Tools/nodejs/"
+        - "/mnt/c/Program Files/CMake/bin"
+        - "/mnt/c/Program Files/usbipd-win/"
+        - "/mnt/c/Users/ZMZ/AppData/Local/Programs/Python/Python312/Scripts/"
+        - "/mnt/c/Users/ZMZ/AppData/Local/Programs/Python/Python312/"
+        - "/mnt/c/Users/ZMZ/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/d/01_Software/VSCode/Microsoft VS Code/bin"
+        - "/mnt/d/01_Software/pyCharm/PyCharm 2025.2.1.1/bin"
+        - "/mnt/c/Users/ZMZ/AppData/Roaming/npm"
+        - "/mnt/d/03_Tools/IDEA/IntelliJ IDEA 2026.2.0.1/bin"
+        - "/mnt/c/Users/ZMZ/AppData/Local/Microsoft/WinGet/Packages/oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe/usr/bin"
+        - "/mnt/c/Users/ZMZ/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "/mnt/c/Users/ZMZ/AppData/Local/Microsoft/WinGet/Packages/oss-winget.gperf_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "/mnt/c/Users/ZMZ/AppData/Local/Microsoft/WinGet/Packages/JernejSimoncic.Wget_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "/mnt/e/01_Software/7-Zip"
+        - "/snap/bin"
+        - "/home/mason/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin"
+        - "/home/mason/zephyr-sdk-1.0.1/hosttools"
+        - "/home/mason/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin"
+        - "/home/mason/zephyr-sdk-1.0.1/hosttools"
+        - "/home/mason/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin"
+        - "/home/mason/zephyr-sdk-1.0.1/hosttools"
+        - "/home/mason/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin"
+        - "/home/mason/zephyr-sdk-1.0.1/hosttools"
+        - "/home/mason/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin"
+        - "/home/mason/zephyr-sdk-1.0.1/hosttools"
+        - "/home/mason/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin"
+        - "/home/mason/zephyr-sdk-1.0.1/hosttools"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/home/mason/01_project/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:41 (find_package)"
+      - "/home/mason/01_project/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/mason/01_project/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:5 (find_package)"
+    name: "ZephyrAppConfiguration"
+    configs:
+      -
+        filename: "ZephyrAppConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "zephyrapp-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: false
+      bypass_provider: false
+      names:
+        - "ZephyrApp"
+      search_paths:
+        - "/home/mason/01_project/ZephyrOnEsp32/01_blinky"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: false
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: false
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: false
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/mason/01_project/ZephyrOnEsp32/01_blinky/build/CMakeFiles/pkgRedirects/ZephyrAppConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mason/01_project/ZephyrOnEsp32/01_blinky/build/CMakeFiles/pkgRedirects/zephyrapp-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mason/01_project/ZephyrOnEsp32/01_blinky/ZephyrAppConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mason/01_project/ZephyrOnEsp32/01_blinky/zephyrapp-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "/home/mason/01_project/zephyrproject/.venv/bin"
+        - "/home/mason/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/mason/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/mason/.vscode-server/bin/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/bin/remote-cli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/01_Software/VMware/bin/"
+        - "/mnt/c/Program Files/Microsoft/jdk-21.0.7.6-hotspot/bin"
+        - "/mnt/c/WINDOWS/system32"
+        - "/mnt/c/WINDOWS"
+        - "/mnt/c/WINDOWS/System32/Wbem"
+        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/WINDOWS/System32/OpenSSH/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/d/01_Software/XShell/"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/d/03_Tools/ffmpeg-8.0-essentials_build/bin"
+        - "/mnt/c/Program Files/Calibre2/"
+        - "/mnt/d/03_Tools/nodejs/"
+        - "/mnt/c/Program Files/CMake/bin"
+        - "/mnt/c/Program Files/usbipd-win/"
+        - "/mnt/c/Users/ZMZ/AppData/Local/Programs/Python/Python312/Scripts/"
+        - "/mnt/c/Users/ZMZ/AppData/Local/Programs/Python/Python312/"
+        - "/mnt/c/Users/ZMZ/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/d/01_Software/VSCode/Microsoft VS Code/bin"
+        - "/mnt/d/01_Software/pyCharm/PyCharm 2025.2.1.1/bin"
+        - "/mnt/c/Users/ZMZ/AppData/Roaming/npm"
+        - "/mnt/d/03_Tools/IDEA/IntelliJ IDEA 2026.2.0.1/bin"
+        - "/mnt/c/Users/ZMZ/AppData/Local/Microsoft/WinGet/Packages/oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe/usr/bin"
+        - "/mnt/c/Users/ZMZ/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "/mnt/c/Users/ZMZ/AppData/Local/Microsoft/WinGet/Packages/oss-winget.gperf_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "/mnt/c/Users/ZMZ/AppData/Local/Microsoft/WinGet/Packages/JernejSimoncic.Wget_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "/mnt/e/01_Software/7-Zip"
+        - "/snap/bin"
+        - "/home/mason/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin"
+        - "/home/mason/zephyr-sdk-1.0.1/hosttools"
+        - "/home/mason/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin"
+        - "/home/mason/zephyr-sdk-1.0.1/hosttools"
+        - "/home/mason/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin"
+        - "/home/mason/zephyr-sdk-1.0.1/hosttools"
+        - "/home/mason/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin"
+        - "/home/mason/zephyr-sdk-1.0.1/hosttools"
+        - "/home/mason/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin"
+        - "/home/mason/zephyr-sdk-1.0.1/hosttools"
+        - "/home/mason/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin"
+        - "/home/mason/zephyr-sdk-1.0.1/hosttools"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:5 (find_package)"
+    name: "Zephyr"
+    configs:
+      -
+        filename: "ZephyrConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "zephyr-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      hints:
+        - "/home/mason/01_project/zephyrproject/zephyr"
+      names:
+        - "Zephyr"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/mason/01_project/ZephyrOnEsp32/01_blinky/build/CMakeFiles/pkgRedirects/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mason/01_project/ZephyrOnEsp32/01_blinky/build/CMakeFiles/pkgRedirects/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mason/01_project/zephyrproject/zephyr/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mason/01_project/zephyrproject/zephyr/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mason/01_project/zephyrproject/zephyr/cmake/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mason/01_project/zephyrproject/zephyr/cmake/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mason/01_project/zephyrproject/zephyr/share/zephyrunittest-package/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mason/01_project/zephyrproject/zephyr/share/zephyrunittest-package/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mason/01_project/zephyrproject/zephyr/share/zephyr-package/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mason/01_project/zephyrproject/zephyr/share/zephyr-package/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mason/01_project/zephyrproject/zephyr/share/zephyrunittest-package/cmake/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/mason/01_project/zephyrproject/zephyr/share/zephyrunittest-package/cmake/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/mason/01_project/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake"
+      mode: "config"
+      version: "4.4.99"
+    search_context:
+      ENV{PATH}:
+        - "/home/mason/01_project/zephyrproject/.venv/bin"
+        - "/home/mason/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/mason/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/mason/.vscode-server/bin/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/bin/remote-cli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/01_Software/VMware/bin/"
+        - "/mnt/c/Program Files/Microsoft/jdk-21.0.7.6-hotspot/bin"
+        - "/mnt/c/WINDOWS/system32"
+        - "/mnt/c/WINDOWS"
+        - "/mnt/c/WINDOWS/System32/Wbem"
+        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/WINDOWS/System32/OpenSSH/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/d/01_Software/XShell/"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/d/03_Tools/ffmpeg-8.0-essentials_build/bin"
+        - "/mnt/c/Program Files/Calibre2/"
+        - "/mnt/d/03_Tools/nodejs/"
+        - "/mnt/c/Program Files/CMake/bin"
+        - "/mnt/c/Program Files/usbipd-win/"
+        - "/mnt/c/Users/ZMZ/AppData/Local/Programs/Python/Python312/Scripts/"
+        - "/mnt/c/Users/ZMZ/AppData/Local/Programs/Python/Python312/"
+        - "/mnt/c/Users/ZMZ/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/d/01_Software/VSCode/Microsoft VS Code/bin"
+        - "/mnt/d/01_Software/pyCharm/PyCharm 2025.2.1.1/bin"
+        - "/mnt/c/Users/ZMZ/AppData/Roaming/npm"
+        - "/mnt/d/03_Tools/IDEA/IntelliJ IDEA 2026.2.0.1/bin"
+        - "/mnt/c/Users/ZMZ/AppData/Local/Microsoft/WinGet/Packages/oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe/usr/bin"
+        - "/mnt/c/Users/ZMZ/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "/mnt/c/Users/ZMZ/AppData/Local/Microsoft/WinGet/Packages/oss-winget.gperf_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "/mnt/c/Users/ZMZ/AppData/Local/Microsoft/WinGet/Packages/JernejSimoncic.Wget_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "/mnt/e/01_Software/7-Zip"
+        - "/snap/bin"
+        - "/home/mason/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin"
+        - "/home/mason/zephyr-sdk-1.0.1/hosttools"
+        - "/home/mason/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin"
+        - "/home/mason/zephyr-sdk-1.0.1/hosttools"
+        - "/home/mason/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin"
+        - "/home/mason/zephyr-sdk-1.0.1/hosttools"
+        - "/home/mason/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin"
+        - "/home/mason/zephyr-sdk-1.0.1/hosttools"
+        - "/home/mason/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin"
+        - "/home/mason/zephyr-sdk-1.0.1/hosttools"
+        - "/home/mason/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin"
+        - "/home/mason/zephyr-sdk-1.0.1/hosttools"
+...

@@ -6,8 +6,19 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.dts",
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.dts",
       3108
+    ]
+  ],
+  [
+    "CONFIG_DT_HAS_ESPRESSIF_ESP32_BT_HCI_ENABLED",
+    "n",
+    "bool",
+    "y",
+    "default",
+    [
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.dts",
+      3118
     ]
   ],
   [
@@ -17,7 +28,7 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.dts",
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.dts",
       3123
     ]
   ],
@@ -28,7 +39,7 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.dts",
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.dts",
       3143
     ]
   ],
@@ -39,7 +50,7 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.dts",
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.dts",
       3153
     ]
   ],
@@ -50,7 +61,7 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.dts",
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.dts",
       3173
     ]
   ],
@@ -61,7 +72,7 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.dts",
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.dts",
       3183
     ]
   ],
@@ -72,7 +83,7 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.dts",
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.dts",
       3223
     ]
   ],
@@ -83,7 +94,7 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.dts",
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.dts",
       3228
     ]
   ],
@@ -94,7 +105,7 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.dts",
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.dts",
       3243
     ]
   ],
@@ -105,19 +116,30 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.dts",
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.dts",
       3253
     ]
   ],
   [
-    "CONFIG_DT_HAS_ESPRESSIF_ESP32_TIMER_ENABLED",
+    "CONFIG_DT_HAS_ESPRESSIF_ESP32_SPI_ENABLED",
     "n",
     "bool",
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.dts",
-      3273
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.dts",
+      3258
+    ]
+  ],
+  [
+    "CONFIG_DT_HAS_ESPRESSIF_ESP32_TRNG_ENABLED",
+    "n",
+    "bool",
+    "y",
+    "default",
+    [
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.dts",
+      3283
     ]
   ],
   [
@@ -127,8 +149,41 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.dts",
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.dts",
       3298
+    ]
+  ],
+  [
+    "CONFIG_DT_HAS_ESPRESSIF_ESP32_USB_OTG_FS_ENABLED",
+    "n",
+    "bool",
+    "y",
+    "default",
+    [
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.dts",
+      3303
+    ]
+  ],
+  [
+    "CONFIG_DT_HAS_ESPRESSIF_ESP32_WATCHDOG_ENABLED",
+    "n",
+    "bool",
+    "y",
+    "default",
+    [
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.dts",
+      3318
+    ]
+  ],
+  [
+    "CONFIG_DT_HAS_ESPRESSIF_ESP32_WIFI_ENABLED",
+    "n",
+    "bool",
+    "y",
+    "default",
+    [
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.dts",
+      3323
     ]
   ],
   [
@@ -138,19 +193,19 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.dts",
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.dts",
       3348
     ]
   ],
   [
-    "CONFIG_DT_HAS_GPIO_LEDS_ENABLED",
+    "CONFIG_DT_HAS_GPIO_KEYS_ENABLED",
     "n",
     "bool",
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.dts",
-      3698
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.dts",
+      3693
     ]
   ],
   [
@@ -160,8 +215,19 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.dts",
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.dts",
       6833
+    ]
+  ],
+  [
+    "CONFIG_DT_HAS_SNPS_DWC2_ENABLED",
+    "n",
+    "bool",
+    "y",
+    "default",
+    [
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.dts",
+      13873
     ]
   ],
   [
@@ -171,7 +237,7 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.dts",
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.dts",
       13923
     ]
   ],
@@ -182,7 +248,7 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.dts",
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.dts",
       18428
     ]
   ],
@@ -193,7 +259,7 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.dts",
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.dts",
       18473
     ]
   ],
@@ -204,7 +270,7 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.dts",
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.dts",
       18608
     ]
   ],
@@ -269,8 +335,8 @@
     "y",
     "assign",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/boards/xtensa/esp32_s3_board/esp32_s3_board_procpu_defconfig",
-      4
+      "/home/mason/01_project/zephyrproject/zephyr/boards/espressif/esp32s3_devkitc/esp32s3_devkitc_procpu_defconfig",
+      6
     ]
   ],
   [
@@ -280,8 +346,8 @@
     "y",
     "assign",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/boards/xtensa/esp32_s3_board/esp32_s3_board_procpu_defconfig",
-      2
+      "/home/mason/01_project/zephyrproject/zephyr/boards/espressif/esp32s3_devkitc/esp32s3_devkitc_procpu_defconfig",
+      4
     ]
   ],
   [
@@ -531,6 +597,14 @@
     ]
   ],
   [
+    "CONFIG_USE_DT_CODE_PARTITION",
+    "y",
+    "bool",
+    null,
+    "unset",
+    null
+  ],
+  [
     "CONFIG_DYNAMIC_THREAD",
     "y",
     "bool",
@@ -649,6 +723,17 @@
     [
       "/home/mason/01_project/zephyrproject/zephyr/kernel/Kconfig",
       576
+    ]
+  ],
+  [
+    "CONFIG_FLASH_LOAD_OFFSET",
+    "y",
+    "hex",
+    "0",
+    "default",
+    [
+      "/home/mason/01_project/zephyrproject/zephyr/Kconfig.zephyr",
+      135
     ]
   ],
   [
@@ -879,8 +964,8 @@
     "y",
     "assign",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/boards/xtensa/esp32_s3_board/esp32_s3_board_procpu_defconfig",
-      1
+      "/home/mason/01_project/zephyrproject/zephyr/boards/espressif/esp32s3_devkitc/esp32s3_devkitc_procpu_defconfig",
+      3
     ]
   ],
   [
@@ -1088,6 +1173,16 @@
     null
   ],
   [
+    "CONFIG_TAINT_BLOBS",
+    "n",
+    "bool",
+    "y",
+    "select",
+    [
+      "ZEPHYR_HAL_ESPRESSIF_MODULE"
+    ]
+  ],
+  [
     "CONFIG_ACPI",
     "y",
     "bool",
@@ -1102,7 +1197,7 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
       5
     ]
   ],
@@ -1113,7 +1208,7 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
       11
     ]
   ],
@@ -1124,7 +1219,7 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
       17
     ]
   ],
@@ -1143,7 +1238,7 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
       23
     ]
   ],
@@ -1154,7 +1249,7 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
       29
     ]
   ],
@@ -1165,7 +1260,7 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
       35
     ]
   ],
@@ -1176,7 +1271,7 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
       41
     ]
   ],
@@ -1187,7 +1282,7 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
       45
     ]
   ],
@@ -1198,7 +1293,7 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
       50
     ]
   ],
@@ -1209,7 +1304,7 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
       59
     ]
   ],
@@ -1220,7 +1315,7 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
       63
     ]
   ],
@@ -1231,7 +1326,7 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
       68
     ]
   ],
@@ -4858,8 +4953,19 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
       77
+    ]
+  ],
+  [
+    "CONFIG_ZEPHYR_HAL_ESPRESSIF_MODULE_BLOBS",
+    "n",
+    "bool",
+    "y",
+    "default",
+    [
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
+      82
     ]
   ],
   [
@@ -4877,8 +4983,8 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
-      86
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
+      88
     ]
   ],
   [
@@ -4888,8 +4994,8 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
-      92
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
+      94
     ]
   ],
   [
@@ -4899,8 +5005,8 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
-      98
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
+      100
     ]
   ],
   [
@@ -4918,8 +5024,8 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
-      107
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
+      109
     ]
   ],
   [
@@ -4929,8 +5035,8 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
-      111
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
+      113
     ]
   ],
   [
@@ -4940,8 +5046,8 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
-      119
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
+      121
     ]
   ],
   [
@@ -4951,8 +5057,8 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
-      126
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
+      128
     ]
   ],
   [
@@ -4962,8 +5068,8 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
-      131
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
+      133
     ]
   ],
   [
@@ -4989,8 +5095,8 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
-      138
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
+      140
     ]
   ],
   [
@@ -5000,8 +5106,8 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
-      141
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
+      143
     ]
   ],
   [
@@ -5011,8 +5117,8 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
-      146
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
+      148
     ]
   ],
   [
@@ -5030,8 +5136,8 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
-      153
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
+      155
     ]
   ],
   [
@@ -5041,8 +5147,8 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
-      161
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
+      163
     ]
   ],
   [
@@ -5052,8 +5158,8 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
-      167
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
+      169
     ]
   ],
   [
@@ -5063,8 +5169,8 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
-      176
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
+      178
     ]
   ],
   [
@@ -5074,8 +5180,8 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
-      185
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
+      187
     ]
   ],
   [
@@ -5085,8 +5191,8 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
-      189
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
+      191
     ]
   ],
   [
@@ -5096,8 +5202,8 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
-      197
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
+      199
     ]
   ],
   [
@@ -5115,8 +5221,8 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
-      203
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
+      205
     ]
   ],
   [
@@ -5126,8 +5232,8 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
-      207
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
+      209
     ]
   ],
   [
@@ -5137,8 +5243,8 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
-      212
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
+      214
     ]
   ],
   [
@@ -5148,8 +5254,8 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
-      216
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
+      218
     ]
   ],
   [
@@ -5159,8 +5265,8 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
-      219
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
+      221
     ]
   ],
   [
@@ -5178,8 +5284,8 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
-      224
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
+      226
     ]
   ],
   [
@@ -5189,8 +5295,8 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
-      230
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
+      232
     ]
   ],
   [
@@ -5200,8 +5306,8 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
-      234
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
+      236
     ]
   ],
   [
@@ -5211,8 +5317,8 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
-      237
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
+      239
     ]
   ],
   [
@@ -5222,8 +5328,8 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
-      242
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
+      244
     ]
   ],
   [
@@ -5241,8 +5347,8 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
-      248
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
+      250
     ]
   ],
   [
@@ -5252,8 +5358,8 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
-      254
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
+      256
     ]
   ],
   [
@@ -5263,8 +5369,8 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
-      260
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
+      262
     ]
   ],
   [
@@ -5282,8 +5388,8 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
-      266
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
+      268
     ]
   ],
   [
@@ -5293,8 +5399,8 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
-      272
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
+      274
     ]
   ],
   [
@@ -5334,8 +5440,8 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
-      276
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
+      278
     ]
   ],
   [
@@ -5345,8 +5451,8 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
-      279
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
+      281
     ]
   ],
   [
@@ -5356,8 +5462,8 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
-      282
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
+      284
     ]
   ],
   [
@@ -5367,8 +5473,8 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
-      287
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
+      289
     ]
   ],
   [
@@ -5386,8 +5492,8 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
-      293
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
+      295
     ]
   ],
   [
@@ -5405,8 +5511,8 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
-      300
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
+      302
     ]
   ],
   [
@@ -5424,8 +5530,8 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
-      305
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
+      307
     ]
   ],
   [
@@ -5443,8 +5549,8 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
-      311
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
+      313
     ]
   ],
   [
@@ -5462,8 +5568,8 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
-      317
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
+      319
     ]
   ],
   [
@@ -5473,8 +5579,8 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
-      321
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
+      323
     ]
   ],
   [
@@ -5484,8 +5590,8 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
-      324
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
+      326
     ]
   ],
   [
@@ -5495,8 +5601,8 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
-      329
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
+      331
     ]
   ],
   [
@@ -5506,8 +5612,8 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
-      333
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
+      335
     ]
   ],
   [
@@ -5517,8 +5623,8 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
-      336
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
+      338
     ]
   ],
   [
@@ -5528,8 +5634,8 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
-      341
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
+      343
     ]
   ],
   [
@@ -5547,8 +5653,8 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
-      347
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
+      349
     ]
   ],
   [
@@ -5558,8 +5664,8 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
-      353
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
+      355
     ]
   ],
   [
@@ -5569,8 +5675,8 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
-      359
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
+      361
     ]
   ],
   [
@@ -5588,8 +5694,8 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
-      365
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
+      367
     ]
   ],
   [
@@ -5599,8 +5705,8 @@
     "y",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/Kconfig/Kconfig.modules",
-      369
+      "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/Kconfig/Kconfig.modules",
+      371
     ]
   ],
   [
@@ -5700,7 +5806,7 @@
     "CONFIG_BOARD",
     "n",
     "string",
-    "esp32_s3_board",
+    "esp32s3_devkitc",
     "default",
     [
       "/home/mason/01_project/zephyrproject/zephyr/boards/Kconfig",
@@ -5722,7 +5828,7 @@
     "CONFIG_BOARD_TARGET",
     "n",
     "string",
-    "esp32_s3_board/esp32s3/procpu",
+    "esp32s3_devkitc/esp32s3/procpu",
     "default",
     [
       "/home/mason/01_project/zephyrproject/zephyr/boards/Kconfig",
@@ -5738,8 +5844,8 @@
     null
   ],
   [
-    "CONFIG_BOARD_ESP32_S3_BOARD",
-    "y",
+    "CONFIG_BOARD_ESP32S3_DEVKITC",
+    "n",
     "bool",
     "y",
     "default",
@@ -5749,7 +5855,7 @@
     ]
   ],
   [
-    "CONFIG_BOARD_ESP32_S3_BOARD_ESP32S3_PROCPU",
+    "CONFIG_BOARD_ESP32S3_DEVKITC_ESP32S3_PROCPU",
     "n",
     "bool",
     "y",
@@ -5777,8 +5883,8 @@
     "4096",
     "default",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/boards/xtensa/esp32_s3_board/Kconfig",
-      3
+      "/home/mason/01_project/zephyrproject/zephyr/boards/espressif/esp32s3_devkitc/Kconfig",
+      6
     ]
   ],
   [
@@ -5815,6 +5921,17 @@
     ]
   ],
   [
+    "CONFIG_SOC_PART_NUMBER",
+    "n",
+    "string",
+    "ESP32S3_WROOM_N8",
+    "default",
+    [
+      "/home/mason/01_project/zephyrproject/zephyr/soc/espressif/esp32s3/Kconfig.soc",
+      151
+    ]
+  ],
+  [
     "CONFIG_SOC_FAMILY_ESPRESSIF_ESP32",
     "n",
     "bool",
@@ -5835,13 +5952,33 @@
     ]
   ],
   [
+    "CONFIG_SOC_ESP32S3_WROOM_N8",
+    "n",
+    "bool",
+    "y",
+    "select",
+    [
+      "BOARD_ESP32S3_DEVKITC"
+    ]
+  ],
+  [
     "CONFIG_SOC_ESP32S3",
     "n",
     "bool",
     "y",
     "select",
     [
-      "BOARD_ESP32_S3_BOARD"
+      "SOC_ESP32S3_WROOM_N8"
+    ]
+  ],
+  [
+    "CONFIG_SOC_ESP32S3_PROCPU",
+    "n",
+    "bool",
+    "y",
+    "select",
+    [
+      "BOARD_ESP32S3_DEVKITC && BOARD_ESP32S3_DEVKITC_ESP32S3_PROCPU"
     ]
   ],
   [
@@ -7914,8 +8051,8 @@
     "y",
     "assign",
     [
-      "/home/mason/01_project/ZephyrOnEsp32/hello_world/boards/xtensa/esp32_s3_board/esp32_s3_board_procpu_defconfig",
-      3
+      "/home/mason/01_project/zephyrproject/zephyr/boards/espressif/esp32s3_devkitc/esp32s3_devkitc_procpu_defconfig",
+      5
     ]
   ],
   [
@@ -10128,6 +10265,17 @@
     ]
   ],
   [
+    "CONFIG_ENTROPY_NODE_ENABLED",
+    "n",
+    "bool",
+    "y",
+    "default",
+    [
+      "/home/mason/01_project/zephyrproject/zephyr/subsys/random/Kconfig",
+      109
+    ]
+  ],
+  [
     "CONFIG_CSPRNG_NEEDED",
     "y",
     "bool",
@@ -10424,6 +10572,17 @@
     null,
     "unset",
     null
+  ],
+  [
+    "CONFIG_FLASH_LOAD_SIZE",
+    "y",
+    "hex",
+    "0",
+    "default",
+    [
+      "/home/mason/01_project/zephyrproject/zephyr/Kconfig.zephyr",
+      148
+    ]
   ],
   [
     "CONFIG_ROM_END_OFFSET",
@@ -10990,6 +11149,16 @@
     null,
     "unset",
     null
+  ],
+  [
+    "CONFIG_TAINT",
+    "n",
+    "bool",
+    "y",
+    "select",
+    [
+      "TAINT_BLOBS"
+    ]
   ],
   [
     "CONFIG_ENFORCE_ZEPHYR_STDINT",

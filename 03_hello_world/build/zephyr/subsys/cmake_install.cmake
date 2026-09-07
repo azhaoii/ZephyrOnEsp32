@@ -39,112 +39,112 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/mason/01_project/ZephyrOnEsp32/hello_world/build/zephyr/subsys/authentication/cmake_install.cmake")
+  include("/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/zephyr/subsys/authentication/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/mason/01_project/ZephyrOnEsp32/hello_world/build/zephyr/subsys/canbus/cmake_install.cmake")
+  include("/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/zephyr/subsys/canbus/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/mason/01_project/ZephyrOnEsp32/hello_world/build/zephyr/subsys/debug/cmake_install.cmake")
+  include("/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/zephyr/subsys/debug/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/mason/01_project/ZephyrOnEsp32/hello_world/build/zephyr/subsys/fs/cmake_install.cmake")
+  include("/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/zephyr/subsys/fs/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/mason/01_project/ZephyrOnEsp32/hello_world/build/zephyr/subsys/gnss/cmake_install.cmake")
+  include("/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/zephyr/subsys/gnss/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/mason/01_project/ZephyrOnEsp32/hello_world/build/zephyr/subsys/instrumentation/cmake_install.cmake")
+  include("/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/zephyr/subsys/instrumentation/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/mason/01_project/ZephyrOnEsp32/hello_world/build/zephyr/subsys/ipc/cmake_install.cmake")
+  include("/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/zephyr/subsys/ipc/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/mason/01_project/ZephyrOnEsp32/hello_world/build/zephyr/subsys/kvss/cmake_install.cmake")
+  include("/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/zephyr/subsys/kvss/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/mason/01_project/ZephyrOnEsp32/hello_world/build/zephyr/subsys/logging/cmake_install.cmake")
+  include("/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/zephyr/subsys/logging/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/mason/01_project/ZephyrOnEsp32/hello_world/build/zephyr/subsys/mem_mgmt/cmake_install.cmake")
+  include("/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/zephyr/subsys/mem_mgmt/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/mason/01_project/ZephyrOnEsp32/hello_world/build/zephyr/subsys/mgmt/cmake_install.cmake")
+  include("/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/zephyr/subsys/mgmt/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/mason/01_project/ZephyrOnEsp32/hello_world/build/zephyr/subsys/pm/cmake_install.cmake")
+  include("/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/zephyr/subsys/pm/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/mason/01_project/ZephyrOnEsp32/hello_world/build/zephyr/subsys/pmci/cmake_install.cmake")
+  include("/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/zephyr/subsys/pmci/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/mason/01_project/ZephyrOnEsp32/hello_world/build/zephyr/subsys/portability/cmake_install.cmake")
+  include("/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/zephyr/subsys/portability/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/mason/01_project/ZephyrOnEsp32/hello_world/build/zephyr/subsys/random/cmake_install.cmake")
+  include("/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/zephyr/subsys/random/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/mason/01_project/ZephyrOnEsp32/hello_world/build/zephyr/subsys/sd/cmake_install.cmake")
+  include("/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/zephyr/subsys/sd/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/mason/01_project/ZephyrOnEsp32/hello_world/build/zephyr/subsys/stats/cmake_install.cmake")
+  include("/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/zephyr/subsys/stats/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/mason/01_project/ZephyrOnEsp32/hello_world/build/zephyr/subsys/storage/cmake_install.cmake")
+  include("/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/zephyr/subsys/storage/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/mason/01_project/ZephyrOnEsp32/hello_world/build/zephyr/subsys/testsuite/cmake_install.cmake")
+  include("/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/zephyr/subsys/testsuite/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/mason/01_project/ZephyrOnEsp32/hello_world/build/zephyr/subsys/tracing/cmake_install.cmake")
+  include("/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/zephyr/subsys/tracing/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/mason/01_project/ZephyrOnEsp32/hello_world/build/zephyr/subsys/usb/cmake_install.cmake")
+  include("/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/zephyr/subsys/usb/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/zephyr/subsys/install_local_manifest.txt"
+  file(WRITE "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/zephyr/subsys/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

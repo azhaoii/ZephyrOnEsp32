@@ -40,6 +40,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/mason/01_project/ZephyrOnEsp32/hello_world/build/modules/cmsis_6/install_local_manifest.txt"
+  file(WRITE "/home/mason/01_project/ZephyrOnEsp32/03_hello_world/build/modules/cmsis_6/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

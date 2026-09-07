@@ -9,10 +9,13 @@
 
 int main(void)
 {
-	while (1) {
-		printf("Hello World! %s\n", CONFIG_BOARD_TARGET);
-		k_msleep(1000);
-	}
+	printk("Hello World from Zephyr!\n");
+
+#if defined(CONFIG_LOG)
+    printk("CONFIG_LOG is enabled (level=%d)\n", CONFIG_LOG_DEFAULT_LEVEL);
+#else
+    printk("CONFIG_LOG is disabled\n");
+#endif
 
 	return 0;
 }

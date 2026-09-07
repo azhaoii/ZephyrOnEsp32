@@ -66,4 +66,4 @@
 /home/mason/01_project/zephyrproject/zephyr/dts/bindings/pinctrl/espressif,esp32-pinctrl.yaml
 /home/mason/01_project/zephyrproject/zephyr/dts/bindings/clock/espressif,esp32-clock.yaml
 /home/mason/01_project/zephyrproject/zephyr/dts/bindings/clock/clock-controller.yaml
-/home/mason/01_project/zephyrproject/zephyr/dts/bindings/led/gpio-leds.yaml
+/home/mason/01_project/zephyrproject/zephyr/dts/bindings/input/gpio-keys.yaml
